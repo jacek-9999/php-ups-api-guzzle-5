@@ -12,6 +12,7 @@
 
 Usage in Prestashop. Add this to composer.json in Presta module
 ----
+```bash
 {
   "repositories": [
     {
@@ -23,6 +24,7 @@ Usage in Prestashop. Add this to composer.json in Presta module
     "jacek-9999/php-ups-api-guzzle-5": "^2.1.2"
   }
 }
+```
 ----
 
 This library wrap all the UPS API into a simple to use PHP Library. It currently covers the Quantum View®,
