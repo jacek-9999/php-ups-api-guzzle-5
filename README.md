@@ -10,6 +10,21 @@
 [![License](https://img.shields.io/packagist/l/gabrielbull/ups-api.svg?style=flat)](https://packagist.org/packages/gabrielbull/ups-api)
 [![Join the chat at https://gitter.im/gabrielbull/php-ups-api](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gabrielbull/php-ups-api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+Usage in Prestashop. Add this to composer.json in Presta module
+----
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/jacek-9999/php-ups-api-guzzle-5"
+    }
+  ],
+  "require": {
+    "jacek-9999/php-ups-api-guzzle-5": "^2.1.2"
+  }
+}
+----
+
 This library wrap all the UPS API into a simple to use PHP Library. It currently covers the Quantum View®,
 Tracking API, Shipping API, Rating API and Time in Transit API. Feel free to contribute.
 
